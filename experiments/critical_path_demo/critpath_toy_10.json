@@ -1,0 +1,330 @@
+[
+  {
+    "instance": "toy:10",
+    "n": 10,
+    "num_agvs": 2,
+    "num_qcs": 3,
+    "coupled": false,
+    "peak_power": null,
+    "n_front": 63,
+    "fused_r2_makespan": 0.9972363114356995,
+    "traversals": [
+      {
+        "label": "makespan_optimal",
+        "makespan": 436.6111111111111,
+        "energy": 12895.833333333334,
+        "fused_makespan": 435.340087890625,
+        "fused_energy": 12895.8330078125,
+        "path_len": 13,
+        "decomposition_total": 436.61111111111114,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "rows": [
+          {
+            "task": 1,
+            "activity": "empty_leg",
+            "duration": 27.77777777777778,
+            "dCmax": 1.0,
+            "completion": 69.44444444444444,
+            "gnn_on_path": true,
+            "gnn_duration": 30.670169830322266,
+            "abs_err": 2.892392052544487
+          },
+          {
+            "task": 1,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 69.44444444444444,
+            "gnn_on_path": true,
+            "gnn_duration": 39.479286193847656,
+            "abs_err": 2.187380472819008
+          },
+          {
+            "task": 6,
+            "activity": "empty_leg",
+            "duration": 8.333333333333334,
+            "dCmax": 1.0,
+            "completion": 160.77777777777777,
+            "gnn_on_path": true,
+            "gnn_duration": 8.654388427734375,
+            "abs_err": 0.3210550944010411
+          },
+          {
+            "task": 6,
+            "activity": "loaded_leg",
+            "duration": 50.0,
+            "dCmax": 1.0,
+            "completion": 160.77777777777777,
+            "gnn_on_path": true,
+            "gnn_duration": 49.464134216308594,
+            "abs_err": 0.5358657836914062
+          },
+          {
+            "task": 7,
+            "activity": "empty_leg",
+            "duration": 6.944444444444445,
+            "dCmax": 1.0,
+            "completion": 176.38888888888889,
+            "gnn_on_path": true,
+            "gnn_duration": 9.87636947631836,
+            "abs_err": 2.9319250318739147
+          },
+          {
+            "task": 7,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 176.38888888888889,
+            "gnn_on_path": true,
+            "gnn_duration": 38.85845947265625,
+            "abs_err": 2.8082071940104143
+          },
+          {
+            "task": 3,
+            "activity": "empty_leg",
+            "duration": 27.77777777777778,
+            "dCmax": 1.0,
+            "completion": 287.5,
+            "gnn_on_path": true,
+            "gnn_duration": 30.74327278137207,
+            "abs_err": 2.9654950035942917
+          },
+          {
+            "task": 3,
+            "activity": "loaded_leg",
+            "duration": 83.33333333333333,
+            "dCmax": 1.0,
+            "completion": 287.5,
+            "gnn_on_path": true,
+            "gnn_duration": 79.21099090576172,
+            "abs_err": 4.12234242757161
+          },
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 6.944444444444445,
+            "dCmax": 1.0,
+            "completion": 392.11111111111114,
+            "gnn_on_path": true,
+            "gnn_duration": 10.807483673095703,
+            "abs_err": 3.8630392286512585
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 392.11111111111114,
+            "gnn_on_path": true,
+            "gnn_duration": 37.112701416015625,
+            "abs_err": 4.553965250651039
+          },
+          {
+            "task": 8,
+            "activity": "empty_leg",
+            "duration": 20.833333333333332,
+            "dCmax": 1.0,
+            "completion": 436.61111111111114,
+            "gnn_on_path": true,
+            "gnn_duration": 22.689212799072266,
+            "abs_err": 1.8558794657389335
+          },
+          {
+            "task": 8,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 436.61111111111114,
+            "gnn_on_path": true,
+            "gnn_duration": 39.168888092041016,
+            "abs_err": 2.4977785746256487
+          },
+          {
+            "task": 8,
+            "activity": "qc_handling",
+            "duration": 38.0,
+            "dCmax": 1.0,
+            "completion": 436.61111111111114,
+            "gnn_on_path": true,
+            "gnn_duration": 38.604736328125,
+            "abs_err": 0.604736328125
+          }
+        ]
+      },
+      {
+        "label": "energy_optimal",
+        "makespan": 908.7499999999999,
+        "energy": 10937.500000000002,
+        "fused_makespan": 902.5482177734375,
+        "fused_energy": 10937.5,
+        "path_len": 16,
+        "decomposition_total": 908.75,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "rows": [
+          {
+            "task": 0,
+            "activity": "empty_leg",
+            "duration": 0.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 2.1039180755615234,
+            "abs_err": 2.1039180755615234
+          },
+          {
+            "task": 0,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 59.546966552734375,
+            "abs_err": 2.953033447265625
+          },
+          {
+            "task": 0,
+            "activity": "qc_handling",
+            "duration": 73.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 72.94281768798828,
+            "abs_err": 0.05718231201171875
+          },
+          {
+            "task": 6,
+            "activity": "qc_handling",
+            "duration": 33.0,
+            "dCmax": 1.0,
+            "completion": 168.5,
+            "gnn_on_path": true,
+            "gnn_duration": 33.01926803588867,
+            "abs_err": 0.019268035888671875
+          },
+          {
+            "task": 9,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 364.5,
+            "gnn_on_path": true,
+            "gnn_duration": 125.3576889038086,
+            "abs_err": 0.35768890380859375
+          },
+          {
+            "task": 9,
+            "activity": "qc_handling",
+            "duration": 71.0,
+            "dCmax": 1.0,
+            "completion": 364.5,
+            "gnn_on_path": true,
+            "gnn_duration": 70.4949722290039,
+            "abs_err": 0.5050277709960938
+          },
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 8.333333333333334,
+            "dCmax": 1.0,
+            "completion": 491.3333333333333,
+            "gnn_on_path": true,
+            "gnn_duration": 13.177963256835938,
+            "abs_err": 4.844629923502604
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 491.3333333333333,
+            "gnn_on_path": true,
+            "gnn_duration": 57.4376220703125,
+            "abs_err": 5.0623779296875
+          },
+          {
+            "task": 2,
+            "activity": "qc_handling",
+            "duration": 56.0,
+            "dCmax": 1.0,
+            "completion": 491.3333333333333,
+            "gnn_on_path": true,
+            "gnn_duration": 54.7800178527832,
+            "abs_err": 1.2199821472167969
+          },
+          {
+            "task": 5,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 648.3333333333333,
+            "gnn_on_path": true,
+            "gnn_duration": 120.5909423828125,
+            "abs_err": 4.4090576171875
+          },
+          {
+            "task": 5,
+            "activity": "qc_handling",
+            "duration": 32.0,
+            "dCmax": 1.0,
+            "completion": 648.3333333333333,
+            "gnn_on_path": true,
+            "gnn_duration": 31.85577392578125,
+            "abs_err": 0.14422607421875
+          },
+          {
+            "task": 4,
+            "activity": "empty_leg",
+            "duration": 10.416666666666668,
+            "dCmax": 1.0,
+            "completion": 828.7499999999999,
+            "gnn_on_path": true,
+            "gnn_duration": 17.638504028320312,
+            "abs_err": 7.221837361653645
+          },
+          {
+            "task": 4,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 828.7499999999999,
+            "gnn_on_path": true,
+            "gnn_duration": 119.38389587402344,
+            "abs_err": 5.6161041259765625
+          },
+          {
+            "task": 4,
+            "activity": "qc_handling",
+            "duration": 45.0,
+            "dCmax": 1.0,
+            "completion": 828.7499999999999,
+            "gnn_on_path": true,
+            "gnn_duration": 44.6529426574707,
+            "abs_err": 0.3470573425292969
+          },
+          {
+            "task": 7,
+            "activity": "loaded_leg",
+            "duration": 50.0,
+            "dCmax": 1.0,
+            "completion": 908.7499999999999,
+            "gnn_on_path": true,
+            "gnn_duration": 49.927486419677734,
+            "abs_err": 0.07251358032226562
+          },
+          {
+            "task": 7,
+            "activity": "qc_handling",
+            "duration": 30.0,
+            "dCmax": 1.0,
+            "completion": 908.7499999999999,
+            "gnn_on_path": true,
+            "gnn_duration": 29.63740348815918,
+            "abs_err": 0.3625965118408203
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,268 @@
+{
+  "train_instances": [
+    "toy:18:3:2",
+    "toy:30:3:3",
+    "toy:42:3:3",
+    "toy:24:4:3",
+    "toy:36:4:4",
+    "toy:48:4:4",
+    "toy:36:6:4",
+    "toy:54:6:5"
+  ],
+  "test_instances": [
+    "toy:30:5:3",
+    "toy:45:5:4",
+    "toy:24:2:2",
+    "toy:40:2:3",
+    "L07"
+  ],
+  "n_train_points": 247,
+  "n_test_points": 182,
+  "train_metrics": {
+    "n_test_points": 247,
+    "mae_transport_frac": 0.038142282321252004,
+    "mae_qc_frac": 0.03698489162226809,
+    "corr_transport": 0.8817152357448085,
+    "corr_qc": 0.8867705127424506
+  },
+  "test_metrics": {
+    "n_test_points": 182,
+    "mae_transport_frac": 0.1583998587789456,
+    "mae_qc_frac": 0.16614764342478464,
+    "corr_transport": -0.008878037203565756,
+    "corr_qc": 0.009239428012708488
+  },
+  "test_metrics_per_instance": {
+    "toy:30:5:3": {
+      "n_test_points": 37,
+      "mae_transport_frac": 0.11276356824690584,
+      "mae_qc_frac": 0.12176013445070627,
+      "corr_transport": 0.62630589638013,
+      "corr_qc": 0.6417251713060126
+    },
+    "toy:45:5:4": {
+      "n_test_points": 27,
+      "mae_transport_frac": 0.1614354170964781,
+      "mae_qc_frac": 0.1662058323451724,
+      "corr_transport": 0.4198044981343663,
+      "corr_qc": 0.418072672652
+    },
+    "toy:24:2:2": {
+      "n_test_points": 22,
+      "mae_transport_frac": 0.24207281114759602,
+      "mae_qc_frac": 0.2521708180625584,
+      "corr_transport": -0.2400884723662077,
+      "corr_qc": -0.2460053936065575
+    },
+    "toy:40:2:3": {
+      "n_test_points": 32,
+      "mae_transport_frac": 0.23723415349867769,
+      "mae_qc_frac": 0.2441933934509439,
+      "corr_transport": 0.24759586975506198,
+      "corr_qc": 0.24341108526469865
+    },
+    "L07": {
+      "n_test_points": 64,
+      "mae_transport_frac": 0.11532299020362748,
+      "mae_qc_frac": 0.12319128265406662,
+      "corr_transport": -0.44121203404217074,
+      "corr_qc": -0.44250723238285583
+    }
+  },
+  "instance_features": {
+    "toy:18:3:2": {
+      "instance_id": "toy:18:3:2",
+      "num_tasks": 18,
+      "num_agvs": 2,
+      "num_qcs": 3,
+      "mean_handling_time": 55.666666666666664,
+      "std_handling_time": 15.084944665313014,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 6,
+      "tasks_per_qc_min": 6,
+      "tasks_per_agv": 9.0,
+      "coupled": false
+    },
+    "toy:30:3:3": {
+      "instance_id": "toy:30:3:3",
+      "num_tasks": 30,
+      "num_agvs": 3,
+      "num_qcs": 3,
+      "mean_handling_time": 56.46666666666667,
+      "std_handling_time": 15.154170676381103,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 10,
+      "tasks_per_qc_min": 10,
+      "tasks_per_agv": 10.0,
+      "coupled": false
+    },
+    "toy:42:3:3": {
+      "instance_id": "toy:42:3:3",
+      "num_tasks": 42,
+      "num_agvs": 3,
+      "num_qcs": 3,
+      "mean_handling_time": 53.95238095238095,
+      "std_handling_time": 15.47802186966191,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 14,
+      "tasks_per_qc_min": 14,
+      "tasks_per_agv": 14.0,
+      "coupled": false
+    },
+    "toy:24:4:3": {
+      "instance_id": "toy:24:4:3",
+      "num_tasks": 24,
+      "num_agvs": 3,
+      "num_qcs": 4,
+      "mean_handling_time": 56.083333333333336,
+      "std_handling_time": 15.345782989328226,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 6,
+      "tasks_per_qc_min": 6,
+      "tasks_per_agv": 8.0,
+      "coupled": false
+    },
+    "toy:36:4:4": {
+      "instance_id": "toy:36:4:4",
+      "num_tasks": 36,
+      "num_agvs": 4,
+      "num_qcs": 4,
+      "mean_handling_time": 55.583333333333336,
+      "std_handling_time": 15.755730879764211,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 9,
+      "tasks_per_qc_min": 9,
+      "tasks_per_agv": 9.0,
+      "coupled": false
+    },
+    "toy:48:4:4": {
+      "instance_id": "toy:48:4:4",
+      "num_tasks": 48,
+      "num_agvs": 4,
+      "num_qcs": 4,
+      "mean_handling_time": 53.020833333333336,
+      "std_handling_time": 15.59712791848408,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 12,
+      "tasks_per_qc_min": 12,
+      "tasks_per_agv": 12.0,
+      "coupled": false
+    },
+    "toy:36:6:4": {
+      "instance_id": "toy:36:6:4",
+      "num_tasks": 36,
+      "num_agvs": 4,
+      "num_qcs": 6,
+      "mean_handling_time": 55.583333333333336,
+      "std_handling_time": 15.755730879764211,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 6,
+      "tasks_per_qc_min": 6,
+      "tasks_per_agv": 9.0,
+      "coupled": false
+    },
+    "toy:54:6:5": {
+      "instance_id": "toy:54:6:5",
+      "num_tasks": 54,
+      "num_agvs": 5,
+      "num_qcs": 6,
+      "mean_handling_time": 53.68518518518518,
+      "std_handling_time": 15.38737346016998,
+      "max_handling_time": 80.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 9,
+      "tasks_per_qc_min": 9,
+      "tasks_per_agv": 10.8,
+      "coupled": false
+    },
+    "toy:30:5:3": {
+      "instance_id": "toy:30:5:3",
+      "num_tasks": 30,
+      "num_agvs": 3,
+      "num_qcs": 5,
+      "mean_handling_time": 56.46666666666667,
+      "std_handling_time": 15.154170676381103,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 6,
+      "tasks_per_qc_min": 6,
+      "tasks_per_agv": 10.0,
+      "coupled": false
+    },
+    "toy:45:5:4": {
+      "instance_id": "toy:45:5:4",
+      "num_tasks": 45,
+      "num_agvs": 4,
+      "num_qcs": 5,
+      "mean_handling_time": 52.48888888888889,
+      "std_handling_time": 15.941033316879949,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 9,
+      "tasks_per_qc_min": 9,
+      "tasks_per_agv": 11.25,
+      "coupled": false
+    },
+    "toy:24:2:2": {
+      "instance_id": "toy:24:2:2",
+      "num_tasks": 24,
+      "num_agvs": 2,
+      "num_qcs": 2,
+      "mean_handling_time": 56.083333333333336,
+      "std_handling_time": 15.345782989328226,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 12,
+      "tasks_per_qc_min": 12,
+      "tasks_per_agv": 12.0,
+      "coupled": false
+    },
+    "toy:40:2:3": {
+      "instance_id": "toy:40:2:3",
+      "num_tasks": 40,
+      "num_agvs": 3,
+      "num_qcs": 2,
+      "mean_handling_time": 54.625,
+      "std_handling_time": 15.41215023934039,
+      "max_handling_time": 79.0,
+      "min_handling_time": 30.0,
+      "tasks_per_qc_max": 20,
+      "tasks_per_qc_min": 20,
+      "tasks_per_agv": 13.333333333333334,
+      "coupled": false
+    },
+    "L07": {
+      "instance_id": "L07",
+      "num_tasks": 8,
+      "num_agvs": 2,
+      "num_qcs": 2,
+      "mean_handling_time": 64.375,
+      "std_handling_time": 14.490837622442672,
+      "max_handling_time": 80.0,
+      "min_handling_time": 38.0,
+      "tasks_per_qc_max": 4,
+      "tasks_per_qc_min": 4,
+      "tasks_per_agv": 4.0,
+      "coupled": false
+    }
+  },
+  "front_statistics": {
+    "train": {
+      "mean_transport_frac": 0.7949952928866751,
+      "std_transport_frac": 0.11697031561827953,
+      "mean_qc_frac": 0.20500470711332483
+    },
+    "test": {
+      "mean_transport_frac": 0.8022587847047753,
+      "std_transport_frac": 0.08954391638011065,
+      "mean_qc_frac": 0.19774121529522473
+    }
+  }
+}

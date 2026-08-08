@@ -1,0 +1,28 @@
+{
+  "_README": "Transcribe FSMJ-2023 Table 5 here. One key per instance (DS01..DS26, DL01..DL10). Per task only 'qc' and 'handling_time' are REQUIRED; 'kind' (LOAD/UNLOAD) and 'lu' are optional (defaults: dual-cycle alternation + LU round-robin). Preserve task order per QC. Delete this _README key before use.",
+  "DS01": {
+    "num_agvs": 2,
+    "qcs": ["QC1", "QC2"],
+    "kind_assignment": "alternate",
+    "tasks": [
+      {"qc": "QC1", "handling_time": 45},
+      {"qc": "QC1", "handling_time": 52},
+      {"qc": "QC1", "handling_time": 38},
+      {"qc": "QC1", "handling_time": 60},
+      {"qc": "QC2", "handling_time": 41},
+      {"qc": "QC2", "handling_time": 33},
+      {"qc": "QC2", "handling_time": 57},
+      {"qc": "QC2", "handling_time": 49}
+    ]
+  },
+  "DL01": {
+    "num_agvs": 4,
+    "qcs": ["QC1", "QC2", "QC3", "QC4", "QC5", "QC6", "QC7", "QC8"],
+    "kind_assignment": "alternate",
+    "_note": "DL needs >6 QCs -> exceeds the real Table 4 matrix; load with allow_synthetic_geometry=True (geometry will be flagged synthetic).",
+    "tasks": [
+      {"qc": "QC1", "handling_time": 45},
+      {"qc": "QC8", "handling_time": 50}
+    ]
+  }
+}

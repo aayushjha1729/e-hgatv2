@@ -1,0 +1,222 @@
+{
+  "aggregate": {
+    "model_mae_mean": 0.04784059351441831,
+    "naive_global_mean_mae_mean": 0.04801026753580439,
+    "own_mean_floor_mae_mean": 0.03737580698919265,
+    "model_beats_naive_count": 14,
+    "n": 35,
+    "verdict": "Model MAE (0.048) == naive constant-mean baseline (0.048); beats it on 14/35. transport_frac is saturated (0.88 +/- 0.04 between instances, 87%% of front points >0.80), so the amortized predictor shows NO meaningful generalization on this benchmark."
+  },
+  "per_instance": {
+    "L01": {
+      "model_mae": 0.0624674941979203,
+      "naive_global_mean_mae": 0.11055397082105903,
+      "own_mean_floor_mae": 0.04798154555940019,
+      "instance_mean_tf": 0.7686274509803923
+    },
+    "L02": {
+      "model_mae": 0.05596008841638208,
+      "naive_global_mean_mae": 0.07485982914514186,
+      "own_mean_floor_mae": 0.06365740740740737,
+      "instance_mean_tf": 0.8125
+    },
+    "L03": {
+      "model_mae": 0.050700790922350004,
+      "naive_global_mean_mae": 0.06442289867890183,
+      "own_mean_floor_mae": 0.06649753422706475,
+      "instance_mean_tf": 0.8248241912798873
+    },
+    "L04": {
+      "model_mae": 0.07050073755030725,
+      "naive_global_mean_mae": 0.05728321167740713,
+      "own_mean_floor_mae": 0.051020408163265286,
+      "instance_mean_tf": 0.8214285714285714
+    },
+    "L05": {
+      "model_mae": 0.06540099958871089,
+      "naive_global_mean_mae": 0.03703960539652723,
+      "own_mean_floor_mae": 0.037074100848878244,
+      "instance_mean_tf": 0.8775066741168435
+    },
+    "L06": {
+      "model_mae": 0.07117077430718724,
+      "naive_global_mean_mae": 0.06894968878824928,
+      "own_mean_floor_mae": 0.07701842841921226,
+      "instance_mean_tf": 0.8469193457145264
+    },
+    "L07": {
+      "model_mae": 0.06500129356704999,
+      "naive_global_mean_mae": 0.06439771278430298,
+      "own_mean_floor_mae": 0.07458024751366892,
+      "instance_mean_tf": 0.843445394984917
+    },
+    "L08": {
+      "model_mae": 0.07588175499026,
+      "naive_global_mean_mae": 0.07641173051712266,
+      "own_mean_floor_mae": 0.09059758922742307,
+      "instance_mean_tf": 0.8357160835714758
+    },
+    "L09": {
+      "model_mae": 0.049629875423425285,
+      "naive_global_mean_mae": 0.03924588274194629,
+      "own_mean_floor_mae": 0.02901032485520028,
+      "instance_mean_tf": 0.8918660287081338
+    },
+    "L10": {
+      "model_mae": 0.07398183169927704,
+      "naive_global_mean_mae": 0.07416650290967257,
+      "own_mean_floor_mae": 0.08186015277428012,
+      "instance_mean_tf": 0.8414673046251996
+    },
+    "L11": {
+      "model_mae": 0.0704878336622636,
+      "naive_global_mean_mae": 0.06693798016966335,
+      "own_mean_floor_mae": 0.06622924956851625,
+      "instance_mean_tf": 0.8535854083023892
+    },
+    "L12": {
+      "model_mae": 0.03710826950455168,
+      "naive_global_mean_mae": 0.049345113061541684,
+      "own_mean_floor_mae": 0.033949567408315194,
+      "instance_mean_tf": 0.9019450494860329
+    },
+    "L13": {
+      "model_mae": 0.03995224417444649,
+      "naive_global_mean_mae": 0.051573799815794054,
+      "own_mean_floor_mae": 0.01009934984293972,
+      "instance_mean_tf": 0.9277065527065526
+    },
+    "L14": {
+      "model_mae": 0.05311307108519476,
+      "naive_global_mean_mae": 0.041527352068614236,
+      "own_mean_floor_mae": 0.042304860276805405,
+      "instance_mean_tf": 0.8814137320845267
+    },
+    "L15": {
+      "model_mae": 0.04690753357695266,
+      "naive_global_mean_mae": 0.02861554594670004,
+      "own_mean_floor_mae": 0.032970649815048395,
+      "instance_mean_tf": 0.8979124463300591
+    },
+    "L16": {
+      "model_mae": 0.021870093322397543,
+      "naive_global_mean_mae": 0.06026164315017582,
+      "own_mean_floor_mae": 0.015217229186390806,
+      "instance_mean_tf": 0.9327663579318326
+    },
+    "L17": {
+      "model_mae": 0.029939779671289548,
+      "naive_global_mean_mae": 0.027331491568281522,
+      "own_mean_floor_mae": 0.01838362816510597,
+      "instance_mean_tf": 0.8566308243727596
+    },
+    "L18": {
+      "model_mae": 0.07231488253822047,
+      "naive_global_mean_mae": 0.05071606673388897,
+      "own_mean_floor_mae": 0.042352361800796136,
+      "instance_mean_tf": 0.8280871670702179
+    },
+    "L19": {
+      "model_mae": 0.06929448470791044,
+      "naive_global_mean_mae": 0.03584360137811525,
+      "own_mean_floor_mae": 0.025371742112482887,
+      "instance_mean_tf": 0.8923007856341189
+    },
+    "L20": {
+      "model_mae": 0.056016610582414125,
+      "naive_global_mean_mae": 0.03306260466616775,
+      "own_mean_floor_mae": 0.030516366604520843,
+      "instance_mean_tf": 0.8836853382307928
+    },
+    "L21": {
+      "model_mae": 0.039773022650605,
+      "naive_global_mean_mae": 0.04586525895086718,
+      "own_mean_floor_mae": 0.04559911967319371,
+      "instance_mean_tf": 0.8738298738298735
+    },
+    "L22": {
+      "model_mae": 0.0804570952816123,
+      "naive_global_mean_mae": 0.04607422667077015,
+      "own_mean_floor_mae": 0.027954786830526525,
+      "instance_mean_tf": 0.9060157790927021
+    },
+    "L23": {
+      "model_mae": 0.032982749298132163,
+      "naive_global_mean_mae": 0.03205335515935285,
+      "own_mean_floor_mae": 0.03344928980364076,
+      "instance_mean_tf": 0.902296335200747
+    },
+    "L24": {
+      "model_mae": 0.03277609499415142,
+      "naive_global_mean_mae": 0.010805988365988957,
+      "own_mean_floor_mae": 0.013361223342771313,
+      "instance_mean_tf": 0.8805859553123574
+    },
+    "L25": {
+      "model_mae": 0.035752971156586356,
+      "naive_global_mean_mae": 0.022219111601435956,
+      "own_mean_floor_mae": 0.013966090889167915,
+      "instance_mean_tf": 0.886169386169386
+    },
+    "L26": {
+      "model_mae": 0.012083120962652088,
+      "naive_global_mean_mae": 0.017800584454781648,
+      "own_mean_floor_mae": 0.0073781538409049075,
+      "instance_mean_tf": 0.8911374014113741
+    },
+    "L27": {
+      "model_mae": 0.029902281703943472,
+      "naive_global_mean_mae": 0.030925829658997806,
+      "own_mean_floor_mae": 0.032145140178381236,
+      "instance_mean_tf": 0.8849045691150955
+    },
+    "L28": {
+      "model_mae": 0.034961218031229264,
+      "naive_global_mean_mae": 0.039311609035575776,
+      "own_mean_floor_mae": 0.026274896459656687,
+      "instance_mean_tf": 0.9049631686994327
+    },
+    "L29": {
+      "model_mae": 0.03069371070087865,
+      "naive_global_mean_mae": 0.045699501341103725,
+      "own_mean_floor_mae": 0.03023934882595019,
+      "instance_mean_tf": 0.9175108932461872
+    },
+    "L30": {
+      "model_mae": 0.06253941467828124,
+      "naive_global_mean_mae": 0.05512623219661573,
+      "own_mean_floor_mae": 0.05443385045042768,
+      "instance_mean_tf": 0.8709695599030948
+    },
+    "L31": {
+      "model_mae": 0.04723379795063057,
+      "naive_global_mean_mae": 0.03491902033632102,
+      "own_mean_floor_mae": 0.02471313158703026,
+      "instance_mean_tf": 0.8940229952888176
+    },
+    "L32": {
+      "model_mae": 0.016357228302433493,
+      "naive_global_mean_mae": 0.03324739349576554,
+      "own_mean_floor_mae": 0.006899290807678627,
+      "instance_mean_tf": 0.9057805338293143
+    },
+    "L33": {
+      "model_mae": 0.023047632389030563,
+      "naive_global_mean_mae": 0.059580236245124936,
+      "own_mean_floor_mae": 0.008864930631833369,
+      "instance_mean_tf": 0.9350947158524425
+    },
+    "L34": {
+      "model_mae": 0.024200115081015487,
+      "naive_global_mean_mae": 0.051196022355904834,
+      "own_mean_floor_mae": 0.028450247316557632,
+      "instance_mean_tf": 0.9205636193871485
+    },
+    "L35": {
+      "model_mae": 0.03395987633494767,
+      "naive_global_mean_mae": 0.04298876186527385,
+      "own_mean_floor_mae": 0.017731000207300167,
+      "instance_mean_tf": 0.912615632954616
+    }
+  }
+}

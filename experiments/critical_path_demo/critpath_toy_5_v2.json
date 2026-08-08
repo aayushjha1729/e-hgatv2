@@ -1,0 +1,407 @@
+[
+  {
+    "instance": "toy:5",
+    "n": 5,
+    "num_agvs": 2,
+    "num_qcs": 3,
+    "coupled": false,
+    "peak_power": null,
+    "n_front": 110,
+    "fused_r2_makespan": 0.9986101984977722,
+    "traversals": [
+      {
+        "label": "makespan_optimal",
+        "makespan": 232.5,
+        "energy": 7166.666666666667,
+        "fused_makespan": 235.99642944335938,
+        "fused_energy": 7166.66650390625,
+        "path_len": 6,
+        "decomposition_total": 232.5,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "agv_sequences": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "qc_sequences": [
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ]
+        ],
+        "per_agv_on_path": {
+          "0": {
+            "count": 5,
+            "total_s": 187.5
+          },
+          "1": {
+            "count": 1,
+            "total_s": 45.0
+          }
+        },
+        "per_qc_on_path": {
+          "QC2": {
+            "count": 1,
+            "total_s": 45.0
+          }
+        },
+        "rows": [
+          {
+            "task": 3,
+            "activity": "empty_leg",
+            "duration": 20.833333333333332,
+            "dCmax": 1.0,
+            "completion": 104.16666666666666,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 23.714111328125,
+            "distance_m": 150.0,
+            "speed_ms": 7.2,
+            "speed_level": "HIGHER",
+            "power_kw": 13.2,
+            "abs_err": 2.880777994791668
+          },
+          {
+            "task": 3,
+            "activity": "loaded_leg",
+            "duration": 83.33333333333333,
+            "dCmax": 1.0,
+            "completion": 104.16666666666666,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 80.07579803466797,
+            "distance_m": 300.0,
+            "speed_ms": 3.6,
+            "speed_level": "HIGHER",
+            "power_kw": 19.8,
+            "abs_err": 3.25753529866536
+          },
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 6.944444444444445,
+            "dCmax": 1.0,
+            "completion": 208.77777777777777,
+            "agv": 0,
+            "qc": "QC3",
+            "gnn_on_path": true,
+            "gnn_duration": 7.1145782470703125,
+            "distance_m": 50.0,
+            "speed_ms": 7.2,
+            "speed_level": "HIGHER",
+            "power_kw": 13.2,
+            "abs_err": 0.17013380262586786
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 208.77777777777777,
+            "agv": 0,
+            "qc": "QC3",
+            "gnn_on_path": true,
+            "gnn_duration": 42.12809371948242,
+            "distance_m": 150.0,
+            "speed_ms": 3.6,
+            "speed_level": "HIGHER",
+            "power_kw": 19.8,
+            "abs_err": 0.4614270528157576
+          },
+          {
+            "task": 1,
+            "activity": "empty_leg",
+            "duration": 34.72222222222222,
+            "dCmax": 1.0,
+            "completion": 229.16666666666666,
+            "agv": 0,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 38.306861877441406,
+            "distance_m": 250.0,
+            "speed_ms": 7.2,
+            "speed_level": "HIGHER",
+            "power_kw": 13.2,
+            "abs_err": 3.584639655219185
+          },
+          {
+            "task": 4,
+            "activity": "qc_handling",
+            "duration": 45.0,
+            "dCmax": 1.0,
+            "completion": 232.5,
+            "agv": 1,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 44.656982421875,
+            "distance_m": null,
+            "speed_ms": null,
+            "speed_level": null,
+            "power_kw": null,
+            "abs_err": 0.343017578125
+          }
+        ]
+      },
+      {
+        "label": "energy_optimal",
+        "makespan": 723.0,
+        "energy": 5606.25,
+        "fused_makespan": 707.4984741210938,
+        "fused_energy": 5606.25,
+        "path_len": 12,
+        "decomposition_total": 723.0,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "agv_sequences": [
+          [
+            0,
+            3,
+            2,
+            4,
+            1
+          ],
+          []
+        ],
+        "qc_sequences": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "per_agv_on_path": {
+          "0": {
+            "count": 12,
+            "total_s": 723.0
+          }
+        },
+        "per_qc_on_path": {
+          "QC1": {
+            "count": 2,
+            "total_s": 116.0
+          },
+          "QC2": {
+            "count": 2,
+            "total_s": 107.0
+          }
+        },
+        "rows": [
+          {
+            "task": 0,
+            "activity": "empty_leg",
+            "duration": 0.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 1.0423202514648438,
+            "distance_m": 0.0,
+            "speed_ms": 7.2,
+            "speed_level": "HIGHER",
+            "power_kw": 13.2,
+            "abs_err": 1.0423202514648438
+          },
+          {
+            "task": 0,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 60.039764404296875,
+            "distance_m": 150.0,
+            "speed_ms": 2.4,
+            "speed_level": "LOWER",
+            "power_kw": 11.7,
+            "abs_err": 2.460235595703125
+          },
+          {
+            "task": 0,
+            "activity": "qc_handling",
+            "duration": 73.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 72.98916625976562,
+            "distance_m": null,
+            "speed_ms": null,
+            "speed_level": null,
+            "power_kw": null,
+            "abs_err": 0.010833740234375
+          },
+          {
+            "task": 3,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 303.5,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 120.91791534423828,
+            "distance_m": 300.0,
+            "speed_ms": 2.4,
+            "speed_level": "LOWER",
+            "power_kw": 11.7,
+            "abs_err": 4.082084655761719
+          },
+          {
+            "task": 3,
+            "activity": "qc_handling",
+            "duration": 43.0,
+            "dCmax": 1.0,
+            "completion": 303.5,
+            "agv": 0,
+            "qc": "QC1",
+            "gnn_on_path": true,
+            "gnn_duration": 42.981536865234375,
+            "distance_m": null,
+            "speed_ms": null,
+            "speed_level": null,
+            "power_kw": null,
+            "abs_err": 0.018463134765625
+          },
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 10.416666666666668,
+            "dCmax": 1.0,
+            "completion": 432.4166666666667,
+            "agv": 0,
+            "qc": "QC3",
+            "gnn_on_path": true,
+            "gnn_duration": 13.458606719970703,
+            "distance_m": 50.0,
+            "speed_ms": 4.8,
+            "speed_level": "LOWER",
+            "power_kw": 7.8,
+            "abs_err": 3.0419400533040353
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 432.4166666666667,
+            "agv": 0,
+            "qc": "QC3",
+            "gnn_on_path": true,
+            "gnn_duration": 58.6805305480957,
+            "distance_m": 150.0,
+            "speed_ms": 2.4,
+            "speed_level": "LOWER",
+            "power_kw": 11.7,
+            "abs_err": 3.819469451904297
+          },
+          {
+            "task": 4,
+            "activity": "empty_leg",
+            "duration": 52.083333333333336,
+            "dCmax": 1.0,
+            "completion": 598.5,
+            "agv": 0,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 53.35258483886719,
+            "distance_m": 250.0,
+            "speed_ms": 4.8,
+            "speed_level": "LOWER",
+            "power_kw": 7.8,
+            "abs_err": 1.2692515055338518
+          },
+          {
+            "task": 4,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 598.5,
+            "agv": 0,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 121.0655517578125,
+            "distance_m": 300.0,
+            "speed_ms": 2.4,
+            "speed_level": "LOWER",
+            "power_kw": 11.7,
+            "abs_err": 3.9344482421875
+          },
+          {
+            "task": 4,
+            "activity": "qc_handling",
+            "duration": 45.0,
+            "dCmax": 1.0,
+            "completion": 598.5,
+            "agv": 0,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 45.43256378173828,
+            "distance_m": null,
+            "speed_ms": null,
+            "speed_level": null,
+            "power_kw": null,
+            "abs_err": 0.43256378173828125
+          },
+          {
+            "task": 1,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 723.0,
+            "agv": 0,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 56.02460479736328,
+            "distance_m": 150.0,
+            "speed_ms": 2.4,
+            "speed_level": "LOWER",
+            "power_kw": 11.7,
+            "abs_err": 6.475395202636719
+          },
+          {
+            "task": 1,
+            "activity": "qc_handling",
+            "duration": 62.0,
+            "dCmax": 1.0,
+            "completion": 723.0,
+            "agv": 0,
+            "qc": "QC2",
+            "gnn_on_path": true,
+            "gnn_duration": 61.51337814331055,
+            "distance_m": null,
+            "speed_ms": null,
+            "speed_level": null,
+            "power_kw": null,
+            "abs_err": 0.4866218566894531
+          }
+        ]
+      }
+    ]
+  }
+]

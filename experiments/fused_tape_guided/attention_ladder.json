@@ -1,0 +1,191 @@
+{
+  "aggregate": {
+    "n_instances": 9,
+    "attention": {
+      "precision_at_1": 0.6949209890478643,
+      "auc_on_path": 0.5096737657998174,
+      "spearman_graded": 0.07309669293406608,
+      "separation_z": 0.05552507490053847
+    },
+    "tape": {
+      "precision_at_1": 0.9786841224601448,
+      "auc_on_path": 0.9402588439933705,
+      "spearman_graded": 0.7025357665673609,
+      "separation_z": 1.9246371286850545
+    },
+    "critical_fraction_baseline": 0.7033011391759305
+  },
+  "per_instance": [
+    {
+      "instance": "L07",
+      "n_tasks": 8,
+      "critical_fraction_baseline": 0.7659090909090909,
+      "attention": {
+        "precision_at_1": 0.7454545454545455,
+        "auc_on_path": 0.5136580086580087,
+        "spearman_graded": 0.16240546954762375,
+        "separation_z": 0.19573124380310422,
+        "n": 55
+      },
+      "tape": {
+        "precision_at_1": 0.9818181818181818,
+        "auc_on_path": 0.9071861471861471,
+        "spearman_graded": 0.6791102437960743,
+        "separation_z": 1.8119639962455196,
+        "n": 55
+      }
+    },
+    {
+      "instance": "L15",
+      "n_tasks": 16,
+      "critical_fraction_baseline": 0.7739583333333333,
+      "attention": {
+        "precision_at_1": 0.7166666666666667,
+        "auc_on_path": 0.49797424797424805,
+        "spearman_graded": 0.1046211252125853,
+        "separation_z": -0.022281247114416793,
+        "n": 60
+      },
+      "tape": {
+        "precision_at_1": 1.0,
+        "auc_on_path": 0.9075971944721943,
+        "spearman_graded": 0.719740531685767,
+        "separation_z": 1.7776353229968334,
+        "n": 60
+      }
+    },
+    {
+      "instance": "L21",
+      "n_tasks": 12,
+      "critical_fraction_baseline": 0.7274011299435028,
+      "attention": {
+        "precision_at_1": 0.7796610169491526,
+        "auc_on_path": 0.46692887307294084,
+        "spearman_graded": 0.02363552867892049,
+        "separation_z": -0.0995735731022885,
+        "n": 59
+      },
+      "tape": {
+        "precision_at_1": 1.0,
+        "auc_on_path": 0.9367145527103153,
+        "spearman_graded": 0.7408364406910577,
+        "separation_z": 1.8062739017798342,
+        "n": 59
+      }
+    },
+    {
+      "instance": "L35",
+      "n_tasks": 12,
+      "critical_fraction_baseline": 0.6527777777777778,
+      "attention": {
+        "precision_at_1": 0.6,
+        "auc_on_path": 0.4873209776334777,
+        "spearman_graded": 0.04846614819919401,
+        "separation_z": -0.04186164170517158,
+        "n": 60
+      },
+      "tape": {
+        "precision_at_1": 1.0,
+        "auc_on_path": 0.9749663800705467,
+        "spearman_graded": 0.7755838274364718,
+        "separation_z": 1.9462805693534533,
+        "n": 60
+      }
+    },
+    {
+      "instance": "toy:10",
+      "n_tasks": 10,
+      "critical_fraction_baseline": 0.6879310344827586,
+      "attention": {
+        "precision_at_1": 0.6724137931034483,
+        "auc_on_path": 0.5542740831964971,
+        "spearman_graded": 0.07913912561024422,
+        "separation_z": 0.1705395079707694,
+        "n": 58
+      },
+      "tape": {
+        "precision_at_1": 0.9310344827586207,
+        "auc_on_path": 0.9347290640394089,
+        "spearman_graded": 0.6470608015228583,
+        "separation_z": 1.9418322876032348,
+        "n": 58
+      }
+    },
+    {
+      "instance": "toy:15",
+      "n_tasks": 15,
+      "critical_fraction_baseline": 0.7011111111111111,
+      "attention": {
+        "precision_at_1": 0.7,
+        "auc_on_path": 0.46546541113207784,
+        "spearman_graded": 0.06375008687563376,
+        "separation_z": -0.10193290725261521,
+        "n": 60
+      },
+      "tape": {
+        "precision_at_1": 0.9833333333333333,
+        "auc_on_path": 0.9130840640840642,
+        "spearman_graded": 0.6707878730910977,
+        "separation_z": 1.8879207077705205,
+        "n": 60
+      }
+    },
+    {
+      "instance": "toy:20",
+      "n_tasks": 20,
+      "critical_fraction_baseline": 0.6841666666666667,
+      "attention": {
+        "precision_at_1": 0.65,
+        "auc_on_path": 0.506218323751412,
+        "spearman_graded": 0.01221508437987683,
+        "separation_z": 0.02855182726476065,
+        "n": 60
+      },
+      "tape": {
+        "precision_at_1": 0.9666666666666667,
+        "auc_on_path": 0.9327927211677213,
+        "spearman_graded": 0.6798409211345275,
+        "separation_z": 1.884180497877973,
+        "n": 60
+      }
+    },
+    {
+      "instance": "toy:5",
+      "n_tasks": 5,
+      "critical_fraction_baseline": 0.6588235294117647,
+      "attention": {
+        "precision_at_1": 0.7058823529411765,
+        "auc_on_path": 0.5196078431372549,
+        "spearman_graded": -0.004889689707165877,
+        "separation_z": 0.01551327711172916,
+        "n": 51
+      },
+      "tape": {
+        "precision_at_1": 0.9803921568627451,
+        "auc_on_path": 0.991830065359477,
+        "spearman_graded": 0.715105086567831,
+        "separation_z": 2.1777870610827352,
+        "n": 51
+      }
+    },
+    {
+      "instance": "toy:8",
+      "n_tasks": 8,
+      "critical_fraction_baseline": 0.6776315789473685,
+      "attention": {
+        "precision_at_1": 0.6842105263157895,
+        "auc_on_path": 0.5756161236424394,
+        "spearman_graded": 0.1685273576096822,
+        "separation_z": 0.3550391871289749,
+        "n": 57
+      },
+      "tape": {
+        "precision_at_1": 0.9649122807017544,
+        "auc_on_path": 0.9634294068504595,
+        "spearman_graded": 0.6947561731805636,
+        "separation_z": 2.087859813455389,
+        "n": 57
+      }
+    }
+  ]
+}

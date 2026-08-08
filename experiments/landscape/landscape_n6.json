@@ -1,0 +1,166 @@
+{
+  "experiment": "landscape",
+  "instance": {
+    "num_tasks": 6,
+    "num_agvs": 2,
+    "num_qcs": 3
+  },
+  "sobol": {
+    "base_samples": 1024,
+    "total_evaluations": 6144,
+    "variance": {
+      "makespan": 11944.807868937505,
+      "energy": 233194.74154378503
+    },
+    "indices": {
+      "makespan": {
+        "sequence": {
+          "first_order": 0.4459405407772507,
+          "total_order": 0.622881936289709
+        },
+        "assignment": {
+          "first_order": 0.5249316150363201,
+          "total_order": 0.7208492062537325
+        },
+        "empty_speed": {
+          "first_order": 0.0050464098777860495,
+          "total_order": 0.013222864342648548
+        },
+        "loaded_speed": {
+          "first_order": 0.04550598506439212,
+          "total_order": 0.06538278131985878
+        }
+      },
+      "energy": {
+        "sequence": {
+          "first_order": 0.0,
+          "total_order": 0.725470804046867
+        },
+        "assignment": {
+          "first_order": 0.33977746530154557,
+          "total_order": 0.5731015199811276
+        },
+        "empty_speed": {
+          "first_order": 0.006183227876947156,
+          "total_order": 0.010877721490570074
+        },
+        "loaded_speed": {
+          "first_order": 0.09555345076971015,
+          "total_order": 0.10558664162094054
+        }
+      }
+    }
+  },
+  "cascade": {
+    "num_samples": 256,
+    "agv_share": 0.8483992467043314,
+    "agv_bound_freq": [
+      0.625,
+      0.44921875,
+      0.66796875,
+      0.5,
+      0.75,
+      0.52734375
+    ],
+    "qc_bound_freq": [
+      0.01171875,
+      0.234375,
+      0.0,
+      0.19140625,
+      0.00390625,
+      0.1875
+    ],
+    "marginal_makespan": [
+      9.310438368055564,
+      10.181098090277782,
+      10.409396701388891,
+      15.23556857638888,
+      21.441623263888893,
+      16.678927951388882
+    ],
+    "marginal_energy": [
+      72.10286458333323,
+      80.29785156249993,
+      82.82877604166657,
+      128.0110677083333,
+      148.47005208333326,
+      138.5823567708333
+    ],
+    "cascade_size": [
+      1.984375,
+      2.00390625,
+      2.19140625,
+      1.9375,
+      2.27734375,
+      1.9375
+    ]
+  },
+  "pareto_contrast": {
+    "num_samples": 512,
+    "num_pareto": 4,
+    "descriptors": [
+      "mean_empty_speed",
+      "mean_loaded_speed",
+      "agv_load_imbalance"
+    ],
+    "pareto_mean": {
+      "mean_empty_speed": 0.9166666666666666,
+      "mean_loaded_speed": 1.1666666666666667,
+      "agv_load_imbalance": 0.0
+    },
+    "dominated_mean": {
+      "mean_empty_speed": 1.0216535433070866,
+      "mean_loaded_speed": 0.9911417322834646,
+      "agv_load_imbalance": 1.8503937007874016
+    },
+    "cliffs_delta": {
+      "mean_empty_speed": -0.19980314960629922,
+      "mean_loaded_speed": 0.35187007874015747,
+      "agv_load_imbalance": -0.6968503937007874
+    }
+  },
+  "tabular_boundary": {
+    "r2": {
+      "makespan": 0.44956165800698544,
+      "energy": 0.5336998678464477
+    },
+    "boundary": {
+      "makespan": {
+        "shap_profile": {
+          "sequence": 0.3100587361568308,
+          "assignment": 0.28599548309265405,
+          "empty_speed": 0.1422323741944746,
+          "loaded_speed": 0.26171340655604053
+        },
+        "sobol_profile": {
+          "sequence": 0.4379285844637228,
+          "assignment": 0.5068062727695941,
+          "empty_speed": 0.009296577612484511,
+          "loaded_speed": 0.045968565154198636
+        },
+        "sobol_structural_mass": 0.944734857233317,
+        "shap_structural_mass": 0.5960542192494849,
+        "structural_underweight": 0.3486806379838321,
+        "total_variation": 0.348680637983832
+      },
+      "energy": {
+        "shap_profile": {
+          "sequence": 0.3724310915462859,
+          "assignment": 0.19992208455781932,
+          "empty_speed": 0.11000462194210246,
+          "loaded_speed": 0.31764220195379234
+        },
+        "sobol_profile": {
+          "sequence": 0.5126869222828457,
+          "assignment": 0.4050082412630951,
+          "empty_speed": 0.007687236373043708,
+          "loaded_speed": 0.07461760008101542
+        },
+        "sobol_structural_mass": 0.9176951635459408,
+        "shap_structural_mass": 0.5723531761041052,
+        "structural_underweight": 0.34534198744183564,
+        "total_variation": 0.34534198744183564
+      }
+    }
+  }
+}

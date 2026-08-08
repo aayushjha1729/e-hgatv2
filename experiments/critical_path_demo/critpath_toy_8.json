@@ -1,0 +1,210 @@
+[
+  {
+    "instance": "toy:8",
+    "n": 8,
+    "num_agvs": 2,
+    "num_qcs": 3,
+    "coupled": false,
+    "peak_power": null,
+    "n_front": 133,
+    "fused_r2_makespan": 0.996669590473175,
+    "traversals": [
+      {
+        "label": "makespan_optimal",
+        "makespan": 316.66666666666663,
+        "energy": 10516.666666666668,
+        "fused_makespan": 318.8194274902344,
+        "fused_energy": 10516.666015625,
+        "path_len": 6,
+        "decomposition_total": 316.6666666666667,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "rows": [
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 50.0,
+            "dCmax": 1.0,
+            "completion": 147.66666666666666,
+            "gnn_on_path": true,
+            "gnn_duration": 47.995758056640625,
+            "abs_err": 2.004241943359375
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 147.66666666666666,
+            "gnn_on_path": true,
+            "gnn_duration": 45.515724182128906,
+            "abs_err": 3.849057515462242
+          },
+          {
+            "task": 4,
+            "activity": "empty_leg",
+            "duration": 34.72222222222222,
+            "dCmax": 1.0,
+            "completion": 254.72222222222223,
+            "gnn_on_path": true,
+            "gnn_duration": 38.934391021728516,
+            "abs_err": 4.212168799506294
+          },
+          {
+            "task": 4,
+            "activity": "loaded_leg",
+            "duration": 83.33333333333333,
+            "dCmax": 1.0,
+            "completion": 254.72222222222223,
+            "gnn_on_path": true,
+            "gnn_duration": 80.06341552734375,
+            "abs_err": 3.2699178059895786
+          },
+          {
+            "task": 5,
+            "activity": "empty_leg",
+            "duration": 6.944444444444445,
+            "dCmax": 1.0,
+            "completion": 316.6666666666667,
+            "gnn_on_path": true,
+            "gnn_duration": 8.291511535644531,
+            "abs_err": 1.3470670912000866
+          },
+          {
+            "task": 5,
+            "activity": "loaded_leg",
+            "duration": 100.0,
+            "dCmax": 1.0,
+            "completion": 316.6666666666667,
+            "gnn_on_path": true,
+            "gnn_duration": 98.01863861083984,
+            "abs_err": 1.9813613891601562
+          }
+        ]
+      },
+      {
+        "label": "energy_optimal",
+        "makespan": 575.0,
+        "energy": 8612.5,
+        "fused_makespan": 568.4140014648438,
+        "fused_energy": 8612.5,
+        "path_len": 11,
+        "decomposition_total": 575.0,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "rows": [
+          {
+            "task": 0,
+            "activity": "empty_leg",
+            "duration": 0.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 2.226552963256836,
+            "abs_err": 2.226552963256836
+          },
+          {
+            "task": 0,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 59.25679397583008,
+            "abs_err": 3.243206024169922
+          },
+          {
+            "task": 5,
+            "activity": "empty_leg",
+            "duration": 20.833333333333336,
+            "dCmax": 1.0,
+            "completion": 208.33333333333334,
+            "gnn_on_path": true,
+            "gnn_duration": 21.02381134033203,
+            "abs_err": 0.19047800699869555
+          },
+          {
+            "task": 5,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 208.33333333333334,
+            "gnn_on_path": true,
+            "gnn_duration": 124.44499206542969,
+            "abs_err": 0.5550079345703125
+          },
+          {
+            "task": 4,
+            "activity": "empty_leg",
+            "duration": 10.416666666666668,
+            "dCmax": 1.0,
+            "completion": 388.75,
+            "gnn_on_path": true,
+            "gnn_duration": 19.475088119506836,
+            "abs_err": 9.058421452840168
+          },
+          {
+            "task": 4,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 388.75,
+            "gnn_on_path": true,
+            "gnn_duration": 113.29417419433594,
+            "abs_err": 11.705825805664062
+          },
+          {
+            "task": 4,
+            "activity": "qc_handling",
+            "duration": 45.0,
+            "dCmax": 1.0,
+            "completion": 388.75,
+            "gnn_on_path": true,
+            "gnn_duration": 47.2027473449707,
+            "abs_err": 2.202747344970703
+          },
+          {
+            "task": 7,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 481.25,
+            "gnn_on_path": true,
+            "gnn_duration": 58.61457824707031,
+            "abs_err": 3.8854217529296875
+          },
+          {
+            "task": 7,
+            "activity": "qc_handling",
+            "duration": 30.0,
+            "dCmax": 1.0,
+            "completion": 481.25,
+            "gnn_on_path": true,
+            "gnn_duration": 30.564449310302734,
+            "abs_err": 0.5644493103027344
+          },
+          {
+            "task": 1,
+            "activity": "empty_leg",
+            "duration": 31.25,
+            "dCmax": 1.0,
+            "completion": 575.0,
+            "gnn_on_path": true,
+            "gnn_duration": 28.623567581176758,
+            "abs_err": 2.626432418823242
+          },
+          {
+            "task": 1,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 575.0,
+            "gnn_on_path": true,
+            "gnn_duration": 63.68720245361328,
+            "abs_err": 1.1872024536132812
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "instance": "toy:5",
+    "n": 5,
+    "num_agvs": 2,
+    "num_qcs": 3,
+    "coupled": false,
+    "peak_power": null,
+    "n_front": 105,
+    "fused_r2_makespan": 0.9980458617210388,
+    "traversals": [
+      {
+        "label": "makespan_optimal",
+        "makespan": 232.5,
+        "energy": 7166.666666666667,
+        "fused_makespan": 236.3369598388672,
+        "fused_energy": 7166.66650390625,
+        "path_len": 6,
+        "decomposition_total": 232.5,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "rows": [
+          {
+            "task": 3,
+            "activity": "empty_leg",
+            "duration": 20.833333333333332,
+            "dCmax": 1.0,
+            "completion": 104.16666666666666,
+            "gnn_on_path": true,
+            "gnn_duration": 23.35129165649414,
+            "abs_err": 2.5179583231608085
+          },
+          {
+            "task": 3,
+            "activity": "loaded_leg",
+            "duration": 83.33333333333333,
+            "dCmax": 1.0,
+            "completion": 104.16666666666666,
+            "gnn_on_path": true,
+            "gnn_duration": 80.65943908691406,
+            "abs_err": 2.673894246419266
+          },
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 6.944444444444445,
+            "dCmax": 1.0,
+            "completion": 208.77777777777777,
+            "gnn_on_path": true,
+            "gnn_duration": 7.640071868896484,
+            "abs_err": 0.6956274244520397
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 41.666666666666664,
+            "dCmax": 1.0,
+            "completion": 208.77777777777777,
+            "gnn_on_path": true,
+            "gnn_duration": 41.919193267822266,
+            "abs_err": 0.2525266011556013
+          },
+          {
+            "task": 1,
+            "activity": "empty_leg",
+            "duration": 34.72222222222222,
+            "dCmax": 1.0,
+            "completion": 229.16666666666666,
+            "gnn_on_path": true,
+            "gnn_duration": 38.57768630981445,
+            "abs_err": 3.8554640875922317
+          },
+          {
+            "task": 4,
+            "activity": "qc_handling",
+            "duration": 45.0,
+            "dCmax": 1.0,
+            "completion": 232.5,
+            "gnn_on_path": true,
+            "gnn_duration": 44.18928527832031,
+            "abs_err": 0.8107147216796875
+          }
+        ]
+      },
+      {
+        "label": "energy_optimal",
+        "makespan": 723.0,
+        "energy": 5606.25,
+        "fused_makespan": 706.1937255859375,
+        "fused_energy": 5606.25,
+        "path_len": 12,
+        "decomposition_total": 723.0,
+        "decomposition_consistent": true,
+        "leg_critical_jaccard": 1.0,
+        "rows": [
+          {
+            "task": 0,
+            "activity": "empty_leg",
+            "duration": 0.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 0.8757438659667969,
+            "abs_err": 0.8757438659667969
+          },
+          {
+            "task": 0,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 59.67213439941406,
+            "abs_err": 2.8278656005859375
+          },
+          {
+            "task": 0,
+            "activity": "qc_handling",
+            "duration": 73.0,
+            "dCmax": 1.0,
+            "completion": 135.5,
+            "gnn_on_path": true,
+            "gnn_duration": 72.99851989746094,
+            "abs_err": 0.0014801025390625
+          },
+          {
+            "task": 3,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 303.5,
+            "gnn_on_path": true,
+            "gnn_duration": 121.19180297851562,
+            "abs_err": 3.808197021484375
+          },
+          {
+            "task": 3,
+            "activity": "qc_handling",
+            "duration": 43.0,
+            "dCmax": 1.0,
+            "completion": 303.5,
+            "gnn_on_path": true,
+            "gnn_duration": 42.97911834716797,
+            "abs_err": 0.02088165283203125
+          },
+          {
+            "task": 2,
+            "activity": "empty_leg",
+            "duration": 10.416666666666668,
+            "dCmax": 1.0,
+            "completion": 432.4166666666667,
+            "gnn_on_path": true,
+            "gnn_duration": 12.574243545532227,
+            "abs_err": 2.1575768788655587
+          },
+          {
+            "task": 2,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 432.4166666666667,
+            "gnn_on_path": true,
+            "gnn_duration": 58.672203063964844,
+            "abs_err": 3.8277969360351562
+          },
+          {
+            "task": 4,
+            "activity": "empty_leg",
+            "duration": 52.083333333333336,
+            "dCmax": 1.0,
+            "completion": 598.5,
+            "gnn_on_path": true,
+            "gnn_duration": 52.6937255859375,
+            "abs_err": 0.6103922526041643
+          },
+          {
+            "task": 4,
+            "activity": "loaded_leg",
+            "duration": 125.0,
+            "dCmax": 1.0,
+            "completion": 598.5,
+            "gnn_on_path": true,
+            "gnn_duration": 121.25508117675781,
+            "abs_err": 3.7449188232421875
+          },
+          {
+            "task": 4,
+            "activity": "qc_handling",
+            "duration": 45.0,
+            "dCmax": 1.0,
+            "completion": 598.5,
+            "gnn_on_path": true,
+            "gnn_duration": 45.64168930053711,
+            "abs_err": 0.6416893005371094
+          },
+          {
+            "task": 1,
+            "activity": "loaded_leg",
+            "duration": 62.5,
+            "dCmax": 1.0,
+            "completion": 723.0,
+            "gnn_on_path": true,
+            "gnn_duration": 56.08021545410156,
+            "abs_err": 6.4197845458984375
+          },
+          {
+            "task": 1,
+            "activity": "qc_handling",
+            "duration": 62.0,
+            "dCmax": 1.0,
+            "completion": 723.0,
+            "gnn_on_path": true,
+            "gnn_duration": 61.55935287475586,
+            "abs_err": 0.4406471252441406
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,290 @@
+{
+  "aggregate": {
+    "mean_within_front_std": 0.04788237707433778,
+    "median_within_front_std": 0.03829206699283812,
+    "frac_flat_front_std_below_0.06": 0.8,
+    "interpretation": "Critical-path composition is largely an instance-structural invariant: it varies little along the makespan-energy Pareto front (mean within-front transport_frac std=0.048; 80% of instances below 0.06). This is why the amortized predictor recovers composition MAGNITUDE well (LORO MAE~0.05) but per-front ORDERING poorly (median corr~0.12) -- there is little ordering signal to recover."
+  },
+  "per_instance": {
+    "L01": {
+      "n_front": 34,
+      "transport_frac_mean": 0.7686274509803923,
+      "transport_frac_std": 0.05655766706610182,
+      "transport_frac_range": 0.13333333333333341,
+      "loro_corr_transport": -0.9501836639818295,
+      "loro_mae_transport": 0.0624674941979203
+    },
+    "L02": {
+      "n_front": 72,
+      "transport_frac_mean": 0.8125,
+      "transport_frac_std": 0.08427324873692063,
+      "transport_frac_range": 0.38888888888888884,
+      "loro_corr_transport": 0.5610122184713615,
+      "loro_mae_transport": 0.05596008841638208
+    },
+    "L03": {
+      "n_front": 79,
+      "transport_frac_mean": 0.8248241912798873,
+      "transport_frac_std": 0.08310016814545235,
+      "transport_frac_range": 0.38888888888888884,
+      "loro_corr_transport": 0.6668843507527329,
+      "loro_mae_transport": 0.050700790922350004
+    },
+    "L04": {
+      "n_front": 49,
+      "transport_frac_mean": 0.8214285714285714,
+      "transport_frac_std": 0.05935349784562974,
+      "transport_frac_range": 0.19047619047619047,
+      "loro_corr_transport": -0.42119359195022377,
+      "loro_mae_transport": 0.07050073755030725
+    },
+    "L05": {
+      "n_front": 59,
+      "transport_frac_mean": 0.8775066741168435,
+      "transport_frac_std": 0.050828919772270574,
+      "transport_frac_range": 0.2564102564102565,
+      "loro_corr_transport": 0.7553276654587063,
+      "loro_mae_transport": 0.06540099958871089
+    },
+    "L06": {
+      "n_front": 83,
+      "transport_frac_mean": 0.8469193457145264,
+      "transport_frac_std": 0.12274073190847457,
+      "transport_frac_range": 0.5230769230769231,
+      "loro_corr_transport": 0.14785620657583565,
+      "loro_mae_transport": 0.07117077430718724
+    },
+    "L07": {
+      "n_front": 64,
+      "transport_frac_mean": 0.843445394984917,
+      "transport_frac_std": 0.08524382731303562,
+      "transport_frac_range": 0.27450980392156865,
+      "loro_corr_transport": 0.4404812944704461,
+      "loro_mae_transport": 0.06500129356704999
+    },
+    "L08": {
+      "n_front": 72,
+      "transport_frac_mean": 0.8357160835714758,
+      "transport_frac_std": 0.11179211660516604,
+      "transport_frac_range": 0.39572192513368987,
+      "loro_corr_transport": 0.503227797401189,
+      "loro_mae_transport": 0.07588175499026
+    },
+    "L09": {
+      "n_front": 57,
+      "transport_frac_mean": 0.8918660287081338,
+      "transport_frac_std": 0.03977915730301725,
+      "transport_frac_range": 0.10909090909090902,
+      "loro_corr_transport": 0.25595054773713133,
+      "loro_mae_transport": 0.049629875423425285
+    },
+    "L10": {
+      "n_front": 38,
+      "transport_frac_mean": 0.8414673046251996,
+      "transport_frac_std": 0.09358658154203378,
+      "transport_frac_range": 0.24242424242424243,
+      "loro_corr_transport": -0.898737721253462,
+      "loro_mae_transport": 0.07398183169927704
+    },
+    "L11": {
+      "n_front": 53,
+      "transport_frac_mean": 0.8535854083023892,
+      "transport_frac_std": 0.08253257503668274,
+      "transport_frac_range": 0.32307692307692315,
+      "loro_corr_transport": -0.5822474749266411,
+      "loro_mae_transport": 0.0704878336622636
+    },
+    "L12": {
+      "n_front": 61,
+      "transport_frac_mean": 0.9019450494860329,
+      "transport_frac_std": 0.04616040532761117,
+      "transport_frac_range": 0.19580419580419584,
+      "loro_corr_transport": 0.269094922394313,
+      "loro_mae_transport": 0.03710826950455168
+    },
+    "L13": {
+      "n_front": 39,
+      "transport_frac_mean": 0.9277065527065526,
+      "transport_frac_std": 0.016755310085702732,
+      "transport_frac_range": 0.05833333333333335,
+      "loro_corr_transport": -0.6422187332948514,
+      "loro_mae_transport": 0.03995224417444649
+    },
+    "L14": {
+      "n_front": 54,
+      "transport_frac_mean": 0.8814137320845267,
+      "transport_frac_std": 0.048021754952575255,
+      "transport_frac_range": 0.16410256410256407,
+      "loro_corr_transport": -0.434671185197428,
+      "loro_mae_transport": 0.05311307108519476
+    },
+    "L15": {
+      "n_front": 54,
+      "transport_frac_mean": 0.8979124463300591,
+      "transport_frac_std": 0.03829206699283812,
+      "transport_frac_range": 0.16959064327485374,
+      "loro_corr_transport": -0.5446171112736639,
+      "loro_mae_transport": 0.04690753357695266
+    },
+    "L16": {
+      "n_front": 58,
+      "transport_frac_mean": 0.9327663579318326,
+      "transport_frac_std": 0.025202375404136067,
+      "transport_frac_range": 0.1291866028708133,
+      "loro_corr_transport": -0.3818165859949431,
+      "loro_mae_transport": 0.021870093322397543
+    },
+    "L17": {
+      "n_front": 62,
+      "transport_frac_mean": 0.8566308243727596,
+      "transport_frac_std": 0.045073427806824,
+      "transport_frac_range": 0.2222222222222222,
+      "loro_corr_transport": 0.27021451006406066,
+      "loro_mae_transport": 0.029939779671289548
+    },
+    "L18": {
+      "n_front": 59,
+      "transport_frac_mean": 0.8280871670702179,
+      "transport_frac_std": 0.0476327253581259,
+      "transport_frac_range": 0.1071428571428571,
+      "loro_corr_transport": -0.9406897291259776,
+      "loro_mae_transport": 0.07231488253822047
+    },
+    "L19": {
+      "n_front": 45,
+      "transport_frac_mean": 0.8923007856341189,
+      "transport_frac_std": 0.036745278070842304,
+      "transport_frac_range": 0.10909090909090902,
+      "loro_corr_transport": 0.3001518824873008,
+      "loro_mae_transport": 0.06929448470791044
+    },
+    "L20": {
+      "n_front": 33,
+      "transport_frac_mean": 0.8836853382307928,
+      "transport_frac_std": 0.033810958109618594,
+      "transport_frac_range": 0.07575757575757569,
+      "loro_corr_transport": -0.806877301990684,
+      "loro_mae_transport": 0.056016610582414125
+    },
+    "L21": {
+      "n_front": 54,
+      "transport_frac_mean": 0.8738298738298735,
+      "transport_frac_std": 0.047669461154420265,
+      "transport_frac_range": 0.15384615384615385,
+      "loro_corr_transport": 0.4909360696141183,
+      "loro_mae_transport": 0.039773022650605
+    },
+    "L22": {
+      "n_front": 52,
+      "transport_frac_mean": 0.9060157790927021,
+      "transport_frac_std": 0.03549323228593912,
+      "transport_frac_range": 0.09999999999999998,
+      "loro_corr_transport": -0.4961780316978664,
+      "loro_mae_transport": 0.0804570952816123
+    },
+    "L23": {
+      "n_front": 56,
+      "transport_frac_mean": 0.902296335200747,
+      "transport_frac_std": 0.034850550078814324,
+      "transport_frac_range": 0.10526315789473684,
+      "loro_corr_transport": 0.11024578658837145,
+      "loro_mae_transport": 0.032982749298132163
+    },
+    "L24": {
+      "n_front": 43,
+      "transport_frac_mean": 0.8805859553123574,
+      "transport_frac_std": 0.023736345780641235,
+      "transport_frac_range": 0.14117647058823524,
+      "loro_corr_transport": 0.11513162076955237,
+      "loro_mae_transport": 0.03277609499415142
+    },
+    "L25": {
+      "n_front": 78,
+      "transport_frac_mean": 0.886169386169386,
+      "transport_frac_std": 0.03272294285674666,
+      "transport_frac_range": 0.15909090909090906,
+      "loro_corr_transport": -0.45738027545085663,
+      "loro_mae_transport": 0.035752971156586356
+    },
+    "L26": {
+      "n_front": 73,
+      "transport_frac_mean": 0.8911374014113741,
+      "transport_frac_std": 0.018521691738791334,
+      "transport_frac_range": 0.15909090909090906,
+      "loro_corr_transport": 0.3177223580866972,
+      "loro_mae_transport": 0.012083120962652088
+    },
+    "L27": {
+      "n_front": 38,
+      "transport_frac_mean": 0.8849045691150955,
+      "transport_frac_std": 0.032553492838566365,
+      "transport_frac_range": 0.06593406593406603,
+      "loro_corr_transport": 0.10812173568828444,
+      "loro_mae_transport": 0.029902281703943472
+    },
+    "L28": {
+      "n_front": 91,
+      "transport_frac_mean": 0.9049631686994327,
+      "transport_frac_std": 0.029431367242975383,
+      "transport_frac_range": 0.06593406593406603,
+      "loro_corr_transport": -0.2170683064615697,
+      "loro_mae_transport": 0.034961218031229264
+    },
+    "L29": {
+      "n_front": 36,
+      "transport_frac_mean": 0.9175108932461872,
+      "transport_frac_std": 0.034338410130749016,
+      "transport_frac_range": 0.14117647058823524,
+      "loro_corr_transport": 0.18302224520082094,
+      "loro_mae_transport": 0.03069371070087865
+    },
+    "L30": {
+      "n_front": 47,
+      "transport_frac_mean": 0.8709695599030948,
+      "transport_frac_std": 0.05671727855417033,
+      "transport_frac_range": 0.16959064327485374,
+      "loro_corr_transport": 0.2631569820707236,
+      "loro_mae_transport": 0.06253941467828124
+    },
+    "L31": {
+      "n_front": 79,
+      "transport_frac_mean": 0.8940229952888176,
+      "transport_frac_std": 0.030788373577259543,
+      "transport_frac_range": 0.08974358974358976,
+      "loro_corr_transport": 0.1948128202651339,
+      "loro_mae_transport": 0.04723379795063057
+    },
+    "L32": {
+      "n_front": 82,
+      "transport_frac_mean": 0.9057805338293143,
+      "transport_frac_std": 0.015545749097938794,
+      "transport_frac_range": 0.08974358974358976,
+      "loro_corr_transport": 0.26827321687804734,
+      "loro_mae_transport": 0.016357228302433493
+    },
+    "L33": {
+      "n_front": 59,
+      "transport_frac_mean": 0.9350947158524425,
+      "transport_frac_std": 0.016505367366733595,
+      "transport_frac_range": 0.06617647058823528,
+      "loro_corr_transport": 0.11975134988827363,
+      "loro_mae_transport": 0.023047632389030563
+    },
+    "L34": {
+      "n_front": 55,
+      "transport_frac_mean": 0.9205636193871485,
+      "transport_frac_std": 0.03469606017065678,
+      "transport_frac_range": 0.11764705882352944,
+      "loro_corr_transport": 0.07046977510205574,
+      "loro_mae_transport": 0.024200115081015487
+    },
+    "L35": {
+      "n_front": 59,
+      "transport_frac_mean": 0.912615632954616,
+      "transport_frac_std": 0.02483008134436056,
+      "transport_frac_range": 0.08974358974358976,
+      "loro_corr_transport": -0.21835599037009357,
+      "loro_mae_transport": 0.03395987633494767
+    }
+  }
+}

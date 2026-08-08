@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs / uv
+.venv/
+venv/
+.python-version
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Vendored libs / scratch (regenerable, heavy)
+.pylibs/
+tmp/
+
+# Secrets / local environment
+.env
+*.env
+secrets/
+
+# Reference papers / third-party materials
+# Figures and the compiled manuscript under paper/ are tracked; see the negations.
+*.pdf
+!paper/figs/*.pdf
+!paper/main.pdf
+refs/
+typeset_equations/
+
+# LaTeX build products
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.xdv
+paper/*.fls
+paper/*.fdb_latexmk
+
+# Model checkpoints and raw shard output (heavy / regenerable). Aggregated
+# per-experiment JSON summaries backing the reported numbers are tracked.
+experiments/**/runs/
+experiments/**/*.pt
+experiments/**/*.png
+experiments/**/shards/
+!tests/data/golden/**
+
+# Local vector store
+data/chromadb/

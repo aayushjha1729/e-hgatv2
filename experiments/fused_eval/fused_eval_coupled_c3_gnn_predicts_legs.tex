@@ -1,0 +1,21 @@
+% Requires \usepackage{booktabs}
+\begin{table}[t]
+\centering
+\caption{Physics-coupled fused E-HGATv2: calibration, faithfulness, and cost (coupled(pp=30), gnn_predicts_legs). Mean $\pm$ 95\% CI over 20 seeds.}
+\label{tab:fused-coupled}
+\begin{tabular}{lrrr}
+\toprule
+Metric & $N=10$ & $N=20$ & $N=50$ \\
+\midrule
+R2 makespan & 0.7968 $\pm$ 0.0122 & 0.8013 $\pm$ 0.0156 & 0.7697 $\pm$ 0.0180 \\
+R2 energy & 1.0000 $\pm$ 0.0000 & 1.0000 $\pm$ 0.0000 & 1.0000 $\pm$ 0.0000 \\
+MAE makespan (s) & 41.571 $\pm$ 1.062 & 61.070 $\pm$ 1.813 & 102.092 $\pm$ 3.121 \\
+MAE energy & 0.0004 $\pm$ 0.0000 & 0.0011 $\pm$ 0.0000 & 0.0049 $\pm$ 0.0002 \\
+Leg critical Jaccard & 0.9260 $\pm$ 0.0084 & 0.9241 $\pm$ 0.0072 & 0.9145 $\pm$ 0.0046 \\
+Arc critical Jaccard & 1.0000 $\pm$ 0.0000 & 1.0000 $\pm$ 0.0000 & 1.0000 $\pm$ 0.0000 \\
+TAPE makespan |err| (s) & 42.4665 $\pm$ 1.3100 & 62.3610 $\pm$ 2.1983 & 101.2233 $\pm$ 3.2423 \\
+TAPE energy |err| & 0.000467 $\pm$ 0.000017 & 0.001053 $\pm$ 0.000032 & 0.002977 $\pm$ 0.000094 \\
+Train wall (s) & 78.5 $\pm$ 0.8 & 169.3 $\pm$ 4.5 & 382.3 $\pm$ 4.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
